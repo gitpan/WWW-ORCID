@@ -1,0 +1,14 @@
+Build.PL
+lib/WWW/ORCID.pm
+lib/WWW/ORCID/API.pm
+lib/WWW/ORCID/API/Common.pm
+lib/WWW/ORCID/API/Pub.pm
+lib/WWW/ORCID/Transport.pm
+lib/WWW/ORCID/Transport/HTTP/Tiny.pm
+lib/WWW/ORCID/Transport/LWP.pm
+MANIFEST			This list of files
+README
+Makefile.PL
+LICENSE
+META.yml
+META.json

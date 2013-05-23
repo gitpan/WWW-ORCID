@@ -1,0 +1,80 @@
+{
+   "abstract" : "Module to interface with the ORCID webservice",
+   "author" : [
+      "Nicolas Steenlant <nicolas.steenlant@ugent.be>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "WWW-ORCID",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Software::License" : "0",
+            "Test::Exception" : "0.31"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.40"
+         }
+      },
+      "runtime" : {
+         "recommends" : {
+            "JSON::XS" : "2.3"
+         },
+         "requires" : {
+            "JSON" : "2.51",
+            "LWP::UserAgent" : "0",
+            "Moo" : "1.000008",
+            "URI" : "0",
+            "XML::Writer" : "0",
+            "namespace::clean" : "0.24",
+            "perl" : "v5.10.1"
+         }
+      }
+   },
+   "provides" : {
+      "WWW::ORCID" : {
+         "file" : "lib/WWW/ORCID.pm",
+         "version" : "0.01"
+      },
+      "WWW::ORCID::API" : {
+         "file" : "lib/WWW/ORCID/API.pm",
+         "version" : 0
+      },
+      "WWW::ORCID::API::Common" : {
+         "file" : "lib/WWW/ORCID/API/Common.pm",
+         "version" : 0
+      },
+      "WWW::ORCID::API::Pub" : {
+         "file" : "lib/WWW/ORCID/API/Pub.pm",
+         "version" : 0
+      },
+      "WWW::ORCID::Transport" : {
+         "file" : "lib/WWW/ORCID/Transport.pm",
+         "version" : 0
+      },
+      "WWW::ORCID::Transport::HTTP::Tiny" : {
+         "file" : "lib/WWW/ORCID/Transport/HTTP/Tiny.pm",
+         "version" : 0
+      },
+      "WWW::ORCID::Transport::LWP" : {
+         "file" : "lib/WWW/ORCID/Transport/LWP.pm",
+         "version" : 0
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.01"
+}
